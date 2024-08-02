@@ -1,0 +1,61 @@
+<!DOCTYPE html">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD JS</title>
+	<link rel="stylesheet" href="style3.css" />	
+	<script src="myscript.js"></script>
+    <style>
+        body {
+            background-image: url(4638298-blue-background-music-note-vector-illustration-vetor.jpg);
+        }
+    </style>
+</head>
+
+<body>
+	<div class="all">
+		<h1 class="title">CADASTRAMENTO</h1>
+		<div class="center-fixed">	
+			<form id="frmCadastro">
+				<label for="txtNome">Nome</label><br>
+				<input type="text" id="txtNome" placeholder="Nome"><br>
+
+				<label for="txtEmail">Email</label><br>
+				<input type="text" id="txtEmail" placeholder="Email"><br>
+				
+				<label for="dtpDataNascimento">Data de Nascimento</label><br>
+				<input type="date" id="dtpDataNascimento" value="1990-08-29" required>
+				
+				<fieldset>
+					<legend>Sexo</legend>
+					<input type="radio" name="genero" value="male" id="rdoMasculino" checked>
+					<label for="rdoMasculino">Masculino</label><br>		
+					
+					<input type="radio" name="genero" value="female" id="rdoFeminino">
+					<label for="rdoFeminino">Feminino</label>
+				</fieldset>
+				
+				<input type="submit" name="" id="btnCadastrarSalvar" value="Cadastrar">
+			</form>
+		</div>
+		<table>
+			<caption><h2>Tabela</h2></caption>
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Nome</th>
+					<th>Email</th>
+					<th>Nascimento</th>
+					<th>Sexo</th>
+					<th>Ultima Atualização</th>
+				</tr>
+			</thead>
+			<tbody id="tbodyResultados"></tbody>
+			<tfoot></tfoot>
+		</table>
+	</div>
+	<button><a href="cadastramento.html">Página Anterior</a></button>
+    <button><a href="index.html">Página Inicial</a></button>
+</body>
+</html>
