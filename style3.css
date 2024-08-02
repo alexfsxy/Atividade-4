@@ -1,0 +1,43 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+#topo {
+    border: 3px solid red;  
+}
+
+h2 {
+    color: blue;
+}
+
+.conteudo {
+    display: table;
+}
+
+.imagem {
+    display: table-cell;
+    float: left;
+}
+
+.texto {
+    display: table-cell;
+    float: left;
+    width: 300px;
+}
+img {
+    height: 200px;
+}
+
+img, p{
+    display: inline-block;
+    color: black;
+}
+
+.container {
+    display: table-cell;
+    float: left;
+    width: 300px;
+}
