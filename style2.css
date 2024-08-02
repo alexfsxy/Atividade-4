@@ -1,0 +1,30 @@
+#content {
+    background-color: #87ceeb;
+    height: 440px;
+   display: flex; 
+     flex-direction: row;  
+    flex-wrap: wrap;  
+}
+
+.item {
+    width: 280px;
+    height: 180px;
+    margin: 10px;
+    background: #add8e6;
+    border: 2px solid blue;
+    flex-grow: 1;
+    
+}
+
+.item1 {
+    flex-shrink: 3;
+    
+}
+
+
+.item2 {
+    flex-shrink: 2;
+    flex-basis: 300px;
+    flex-grow: 3;
+    
+}
